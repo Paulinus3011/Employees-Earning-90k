@@ -1,12 +1,11 @@
 # Employees-Earning-90k
 
-Employees Earning Below 90k – Dashboard
-📊 Overview
+## Employees Earning Below 90k – Dashboard
 
 This Power BI dashboard provides an analytical breakdown of employees based on their earnings, focusing specifically on those earning less than $90,000 annually. The dashboard highlights employee distribution across regions, departments, and gender, while also offering quick insights into overall workforce composition.
 
 
-##📊 Overview
+## Overview
 
 🔢 Key Metrics
 
@@ -40,7 +39,8 @@ Equal representation of both genders in the < 90k group (614 each side in the da
 
 📌 Insight: No significant gender disparity among employees earning < 90k.
 
-##📖 Data Dictionary
+## Data Dictionary
+
 Field	Description	Data Type	Example Values
 Employee_ID	Unique identifier assigned to each employee	Integer	101, 205, 322
 Employee_Name	Name of the employee	Text	John Doe, Jane Smith
@@ -51,7 +51,7 @@ Salary	Annual salary of the employee	Numeric (USD)	75,000; 110,000
 Salary_Band	Categorized salary band (used for segmentation)	Derived Field	<90k, >90k
 Earning_Status	Boolean flag indicating if an employee earns < 90k	Boolean	True, False
 
-##🛠 Data Source
+## Data Source
 
 Dataset originated from an employee payroll/HR system (Excel extract or SQL export).
 
@@ -69,7 +69,7 @@ Product Management & HR slightly lead departmental counts.
 
 Gender parity exists in this salary band.
 
-##📌 Usage Scenarios
+## Usage Scenarios
 
 HR Teams: Identify regions or departments with lower salary clusters.
 
@@ -77,7 +77,7 @@ Management: Track pay distribution for workforce planning.
 
 Analysts: Monitor salary parity across demographics.
 
-##🚀 Future Enhancements
+## Future Enhancements
 
 Add time-based trends (salary growth per year).
 
